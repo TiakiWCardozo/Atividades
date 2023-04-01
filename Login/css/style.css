@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header {
+    border-bottom: 2px #32B9CD solid;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E3B062;
+}
+
+.agora {
+    font-weight: 800;
+}
+
+.navebar {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none; 
+}
+
+.titulo {
+    color:#32B9CD;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.banner {
+    height: fit-content;
+    padding: 110px;
+    color: white;
+    background-image: url('../assets/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 400px;
+    height: 310px;
+    border-radius: 6px;
+    background-color: #d0d3d4;
+}
+
+.mensagemInicial {
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e46998;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.infos {
+   font-weight: bold;
+   font-size: 17px;
+   color: #e46998;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.infos .botão {
+    width: 130px;
+    height: 40px;
+    background-color: #E6005A;
+    border:#E6005A;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+.infos input {
+    width: 175px;
+    height: 34px;
+    border:#32B9CD 2px solid;
+    border-radius: 7px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.bottom {
+    height: fit-content;
+    padding: 40px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #32B9CD;
+}
+
+
+.recado1 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.recado2 {
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+}
+
+
+
